@@ -1,25 +1,25 @@
 @font-face {
     font-family: "raleway";
     src: url(../font/Raleway-Regular.woff);
-    src: url(../font/Raleway-Regular.ttf, format(truetype);
+    src: url(../font/Raleway-Regular.ttf), format(truetype);
 }
 
 @font-face {
     font-family: "lato";
     src: url(../font/Lato-Regular.woff);
-    src: url(../font/Lato-Regular.ttf, format(truetype);
+    src: url(../font/Lato-Regular.ttf), format(truetype);
 }
 
 @font-face {
     font-family: "raleway_bold";
     src: url(../font/Raleway-ExtraBold.woff);
-    src: url(../font/Raleway-ExtraBold.ttf format(truetype);
+    src: url(../font/Raleway-ExtraBold.ttf), format(truetype);
 }
 
 @font-face {
     font-family: "raleway_italique";
     src: url(../font/Raleway-LightItalic.woff);
-    src: url(../font/Raleway-LightItalic.ttf format(truetype);
+    src: url(../font/Raleway-LightItalic.ttf), format(truetype);
 }
 
 body {
@@ -185,19 +185,8 @@ hr {
     padding: 10px;
     background: #17abb3;
     color: #ffffff;
-}
+  }
 
-.reseaux ul li {
-    display: inline-flex;
-    align-items: center;
-}
-
-ul.reseaux {
-    margin: 0;
-    display: inline-flex;
-    align-items: center;
-    gap: 25px;
-}
 
 .date {
     color: #17abb3;
@@ -205,13 +194,18 @@ ul.reseaux {
     padding-right: 30px;
 }
 
-footer ul a img {
+footer a img {
     width: 30px;
     height: 30px;
+    
 }
 
+footer a {
+    text-decoration: none;
+    gap: 25px;
+}
 
-footer ul a img:hover {
+footer a img:hover {
     opacity: 0.4;
 }
 
