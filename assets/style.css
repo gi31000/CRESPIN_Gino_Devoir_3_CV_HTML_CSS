@@ -47,16 +47,17 @@ body {
     text-align: center;
     margin-left: 10px;
 }
-address.contact-info{
+
+address.contact-info {
     margin-top: 0px;
     padding-top: 0px;
 }
 
-.gauche{
+.gauche {
     text-align: left;
 }
 
-.contact-info{
+.contact-info {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -66,25 +67,25 @@ address.contact-info{
     font-family: "raleway";
     font-size: 0.8em;
     flex-wrap: wrap;
-    
-  }
-  
-  .contact-info p {
+
+}
+
+.contact-info p {
     /* margin: 0.5rem 0; */
     margin-top: 0px;
     padding-top: 0px;
     font-style: normal;
-  }
-  
-  .contact-info a {
+}
+
+.contact-info a {
     color: #ffffff;
     text-decoration: none;
     font-style: normal;
-  }
-  
-  .contact-info a:hover {
+}
+
+.contact-info a:hover {
     text-decoration: underline;
-  }  
+}
 
 header img {
     width: 100px;
@@ -98,8 +99,8 @@ header img {
     margin-top: 40px;
 }
 
-header img:hover{
-cursor: zoom-in;
+header img:hover {
+    cursor: zoom-in;
 }
 
 main {
@@ -186,12 +187,12 @@ hr {
     color: #ffffff;
 }
 
-.reseaux ul li{
+.reseaux ul li {
     display: inline-flex;
     align-items: center;
 }
 
-ul.reseaux{
+ul.reseaux {
     margin: 0;
     display: inline-flex;
     align-items: center;
@@ -204,69 +205,75 @@ ul.reseaux{
     padding-right: 30px;
 }
 
-footer ul a img{
+footer ul a img {
     width: 30px;
     height: 30px;
 }
 
 
-footer ul a img:hover{
+footer ul a img:hover {
     opacity: 0.4;
 }
 
 
-.maj{
+.maj {
     margin: 0;
+}
+
+.competences:hover {
+    background-color: #f5f5f5;
+    border-left: 3px solid #17abb3;
+    padding: 4px;
 }
 
 
 @media screen and (max-width: 768px) {
 
     .container {
-      width: 100%;
+        width: 100%;
     }
-  
+
     .header {
-      flex-direction: column;
-      align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
-  
+
     .txt_header {
-      width: 100%;
-      margin-left: 0;
-      text-align: center;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
     }
-  
+
     .contact-info {
-      flex-direction: row;
-      gap: 0.5rem;
-      font-size: 0.9em;
+        flex-direction: row;
+        gap: 0.5rem;
+        font-size: 0.9em;
     }
-  
+
     main {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
-    .sidebar, .main_right {
-      width: 90%;
-      padding: 20px;
+
+    .sidebar,
+    .main_right {
+        width: 90%;
+        padding: 20px;
     }
-  
+
     .photo_profil {
-      margin: 20px auto;
+        margin: 20px auto;
     }
-  
+
     .reseaux {
-      flex-direction: row;
-      gap: 10px;
+        flex-direction: row;
+        gap: 10px;
     }
-  
+
     .date {
-      float: none;
-      display: block;
-      text-align: right;
-      padding-right: 0;
+        float: right;
+        display: block;
+        text-align: right;
+        padding-right: 0;
     }
-  
-  }
-  
+
+}
