@@ -66,17 +66,20 @@ address.contact-info{
     font-family: "raleway";
     font-size: 0.8em;
     flex-wrap: wrap;
+    
   }
   
   .contact-info p {
     /* margin: 0.5rem 0; */
     margin-top: 0px;
     padding-top: 0px;
+    font-style: normal;
   }
   
   .contact-info a {
     color: #ffffff;
     text-decoration: none;
+    font-style: normal;
   }
   
   .contact-info a:hover {
@@ -93,8 +96,10 @@ header img {
     border-color: #ffffff;
     margin-left: 60px;
     margin-top: 40px;
+}
 
-
+header img:hover{
+cursor: zoom-in;
 }
 
 main {
@@ -199,11 +204,69 @@ ul.reseaux{
     padding-right: 30px;
 }
 
-.logo{
+footer ul a img{
     width: 30px;
     height: 30px;
 }
 
+
+footer ul a img:hover{
+    opacity: 0.4;
+}
+
+
 .maj{
     margin: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+      width: 100%;
+    }
+  
+    .header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .txt_header {
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .contact-info {
+      flex-direction: row;
+      gap: 0.5rem;
+      font-size: 0.9em;
+    }
+  
+    main {
+      flex-direction: column;
+    }
+  
+    .sidebar, .main_right {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .photo_profil {
+      margin: 20px auto;
+    }
+  
+    .reseaux {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .date {
+      float: none;
+      display: block;
+      text-align: right;
+      padding-right: 0;
+    }
+  
+  }
+  
